@@ -3,7 +3,7 @@
 
     angular
         .module("ev.rekapi", [])
-        .directive("evRekapi", evRekapi);
+        .directive("evRekapi", ["Rekapi", evRekapi]);
 
     function evRekapi(Rekapi) {
         return {
