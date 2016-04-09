@@ -2,7 +2,7 @@
     "use strict";
 
     angular
-        .module("evRekapi", [])
+        .module("ev.rekapi", [])
         .directive("evRekapi", evRekapi);
 
     function evRekapi(Rekapi) {
