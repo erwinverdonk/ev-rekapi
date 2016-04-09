@@ -10,6 +10,9 @@
     "type": "git",
     "url": "https://github.com/erwinverdonk/ev-rekapi"
   },
+  "dependencies": {
+    "rekapi": "~1.6.2"
+  },
   "main": "./dist/ev-rekapi.min.js",
   "license": "MIT",
   "ignore": [
